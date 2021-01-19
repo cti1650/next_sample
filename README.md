@@ -37,12 +37,13 @@ git clone https://github.com/cti1650/next_sample.git
    
 6. 必要な機能をインストールする。  
    ```bash
+   cd [複製先リポジトリ名]
    npm install
    ```
    
 7. 動作確認  
    ```bash
-   npm start
+   npm run dev
    ```
    
    ブラウザで [http://localhost:3000/](http://localhost:3000/) を開く
