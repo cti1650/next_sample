@@ -1,3 +1,58 @@
+# next_sample
+
+React でWEBアプリを作成する際のテンプレート
+
+## ローカルへのコピー
+
+以下を clone  
+```bash
+git clone https://github.com/cti1650/next_sample.git
+```
+
+## リポジトリを複製する
+
+1. Git Bash を開いてください。
+
+2. リポジトリのベアクローンを作成します。   
+   ```bash
+   git clone --bare https://github.com/cti1650/next_sample.git
+   ```
+
+3. 新しいリポジトリをミラープッシュします。(--mirror 以降は複製先のリポジトリを指定)  
+   ```bash
+   cd next_sample.git
+   git push --mirror [複製先リポジトリURL]
+   ```
+
+4. 先ほど作成した一時ローカルリポジトリを削除します。  
+   ```bash
+   cd ..
+   rm -rf next_sample.git
+   ```
+   
+5. 先ほど作成した複製先のリポジトリをクローンします。  
+   ```bash
+   git clone [複製先リポジトリURL]
+   ```
+   
+6. 必要な機能をインストールする。  
+   ```bash
+   npm install
+   ```
+   
+7. 動作確認  
+   ```bash
+   npm start
+   ```
+   
+   ブラウザで [http://localhost:3000/](http://localhost:3000/) を開く
+   
+8. デプロイ
+   ```
+   npm run deploy
+   ```
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
