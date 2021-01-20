@@ -1,13 +1,7 @@
 # next_sample
 
 Next でWEBアプリを作成する際のテンプレート
-
-## ローカルへのコピー
-
-以下を clone  
-```bash
-git clone https://github.com/cti1650/next_sample.git
-```
+**複製専用リポジトリとしてご活用下さい！**
 
 ## リポジトリを複製する
 
